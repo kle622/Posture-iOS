@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ACB87D01AD0CDBB00B4A1A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87CF1AD0CDBB00B4A1A3 /* main.m */; };
-		0ACB87D31AD0CDBB00B4A1A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.m */; };
-		0ACB87D61AD0CDBB00B4A1A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87D51AD0CDBB00B4A1A3 /* ViewController.m */; };
+		0ACB87D01AD0CDBB00B4A1A3 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87CF1AD0CDBB00B4A1A3 /* main.mm */; };
+		0ACB87D31AD0CDBB00B4A1A3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.mm */; };
+		0ACB87D61AD0CDBB00B4A1A3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87D51AD0CDBB00B4A1A3 /* ViewController.mm */; };
 		0ACB87D91AD0CDBB00B4A1A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB87D71AD0CDBB00B4A1A3 /* Main.storyboard */; };
 		0ACB87DB1AD0CDBB00B4A1A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB87DA1AD0CDBB00B4A1A3 /* Images.xcassets */; };
 		0ACB87DE1AD0CDBC00B4A1A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ACB87DC1AD0CDBC00B4A1A3 /* LaunchScreen.xib */; };
-		0ACB87EA1AD0CDBC00B4A1A3 /* PostureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87E91AD0CDBC00B4A1A3 /* PostureTests.m */; };
+		0ACB87F41AD0CDF000B4A1A3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87F31AD0CDF000B4A1A3 /* opencv2.framework */; };
+		0ACB87F51AD0CDF000B4A1A3 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87F31AD0CDF000B4A1A3 /* opencv2.framework */; };
+		0ACB87FF1AD0CE8D00B4A1A3 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87F71AD0CE8D00B4A1A3 /* Accelerate.framework */; };
+		0ACB88001AD0CE8D00B4A1A3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87F81AD0CE8D00B4A1A3 /* AssetsLibrary.framework */; };
+		0ACB88011AD0CE8D00B4A1A3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87F91AD0CE8D00B4A1A3 /* AVFoundation.framework */; };
+		0ACB88021AD0CE8D00B4A1A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87FA1AD0CE8D00B4A1A3 /* CoreGraphics.framework */; };
+		0ACB88031AD0CE8D00B4A1A3 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87FB1AD0CE8D00B4A1A3 /* CoreMedia.framework */; };
+		0ACB88041AD0CE8D00B4A1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87FC1AD0CE8D00B4A1A3 /* Foundation.framework */; };
+		0ACB88051AD0CE8D00B4A1A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87FD1AD0CE8D00B4A1A3 /* QuartzCore.framework */; };
+		0ACB88061AD0CE8D00B4A1A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB87FE1AD0CE8D00B4A1A3 /* UIKit.framework */; };
+		0ACB88091AD0D39900B4A1A3 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACB88081AD0D39900B4A1A3 /* CoreVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +39,26 @@
 /* Begin PBXFileReference section */
 		0ACB87CA1AD0CDBB00B4A1A3 /* Posture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Posture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACB87CE1AD0CDBB00B4A1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ACB87CF1AD0CDBB00B4A1A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0ACB87CF1AD0CDBB00B4A1A3 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		0ACB87D11AD0CDBB00B4A1A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		0ACB87D41AD0CDBB00B4A1A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0ACB87D51AD0CDBB00B4A1A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0ACB87D51AD0CDBB00B4A1A3 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		0ACB87D81AD0CDBB00B4A1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ACB87DA1AD0CDBB00B4A1A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0ACB87DD1AD0CDBC00B4A1A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0ACB87E31AD0CDBC00B4A1A3 /* PostureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ACB87E81AD0CDBC00B4A1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0ACB87E91AD0CDBC00B4A1A3 /* PostureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostureTests.m; sourceTree = "<group>"; };
+		0ACB87F31AD0CDF000B4A1A3 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		0ACB87F71AD0CE8D00B4A1A3 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0ACB87F81AD0CE8D00B4A1A3 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		0ACB87F91AD0CE8D00B4A1A3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0ACB87FA1AD0CE8D00B4A1A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0ACB87FB1AD0CE8D00B4A1A3 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0ACB87FC1AD0CE8D00B4A1A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0ACB87FD1AD0CE8D00B4A1A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0ACB87FE1AD0CE8D00B4A1A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0ACB88071AD0CFA700B4A1A3 /* Posture-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Posture-Prefix.pch"; sourceTree = "<group>"; };
+		0ACB88081AD0D39900B4A1A3 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACB88061AD0CE8D00B4A1A3 /* UIKit.framework in Frameworks */,
+				0ACB88091AD0D39900B4A1A3 /* CoreVideo.framework in Frameworks */,
+				0ACB87FF1AD0CE8D00B4A1A3 /* Accelerate.framework in Frameworks */,
+				0ACB88001AD0CE8D00B4A1A3 /* AssetsLibrary.framework in Frameworks */,
+				0ACB88011AD0CE8D00B4A1A3 /* AVFoundation.framework in Frameworks */,
+				0ACB88021AD0CE8D00B4A1A3 /* CoreGraphics.framework in Frameworks */,
+				0ACB88031AD0CE8D00B4A1A3 /* CoreMedia.framework in Frameworks */,
+				0ACB88041AD0CE8D00B4A1A3 /* Foundation.framework in Frameworks */,
+				0ACB88051AD0CE8D00B4A1A3 /* QuartzCore.framework in Frameworks */,
+				0ACB87F41AD0CDF000B4A1A3 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACB87F51AD0CDF000B4A1A3 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,8 +93,8 @@
 		0ACB87C11AD0CDBB00B4A1A3 = {
 			isa = PBXGroup;
 			children = (
+				0ACB87F61AD0CDFC00B4A1A3 /* Frameworks */,
 				0ACB87CC1AD0CDBB00B4A1A3 /* Posture */,
-				0ACB87E61AD0CDBC00B4A1A3 /* PostureTests */,
 				0ACB87CB1AD0CDBB00B4A1A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,9 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				0ACB87D11AD0CDBB00B4A1A3 /* AppDelegate.h */,
-				0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.m */,
+				0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.mm */,
 				0ACB87D41AD0CDBB00B4A1A3 /* ViewController.h */,
-				0ACB87D51AD0CDBB00B4A1A3 /* ViewController.m */,
+				0ACB87D51AD0CDBB00B4A1A3 /* ViewController.mm */,
 				0ACB87D71AD0CDBB00B4A1A3 /* Main.storyboard */,
 				0ACB87DA1AD0CDBB00B4A1A3 /* Images.xcassets */,
 				0ACB87DC1AD0CDBC00B4A1A3 /* LaunchScreen.xib */,
@@ -97,26 +127,27 @@
 			isa = PBXGroup;
 			children = (
 				0ACB87CE1AD0CDBB00B4A1A3 /* Info.plist */,
-				0ACB87CF1AD0CDBB00B4A1A3 /* main.m */,
+				0ACB87CF1AD0CDBB00B4A1A3 /* main.mm */,
+				0ACB88071AD0CFA700B4A1A3 /* Posture-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0ACB87E61AD0CDBC00B4A1A3 /* PostureTests */ = {
+		0ACB87F61AD0CDFC00B4A1A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0ACB87E91AD0CDBC00B4A1A3 /* PostureTests.m */,
-				0ACB87E71AD0CDBC00B4A1A3 /* Supporting Files */,
+				0ACB88081AD0D39900B4A1A3 /* CoreVideo.framework */,
+				0ACB87F71AD0CE8D00B4A1A3 /* Accelerate.framework */,
+				0ACB87F81AD0CE8D00B4A1A3 /* AssetsLibrary.framework */,
+				0ACB87F91AD0CE8D00B4A1A3 /* AVFoundation.framework */,
+				0ACB87FA1AD0CE8D00B4A1A3 /* CoreGraphics.framework */,
+				0ACB87FB1AD0CE8D00B4A1A3 /* CoreMedia.framework */,
+				0ACB87FC1AD0CE8D00B4A1A3 /* Foundation.framework */,
+				0ACB87FD1AD0CE8D00B4A1A3 /* QuartzCore.framework */,
+				0ACB87FE1AD0CE8D00B4A1A3 /* UIKit.framework */,
+				0ACB87F31AD0CDF000B4A1A3 /* opencv2.framework */,
 			);
-			path = PostureTests;
-			sourceTree = "<group>";
-		};
-		0ACB87E71AD0CDBC00B4A1A3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				0ACB87E81AD0CDBC00B4A1A3 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACB87D61AD0CDBB00B4A1A3 /* ViewController.m in Sources */,
-				0ACB87D31AD0CDBB00B4A1A3 /* AppDelegate.m in Sources */,
-				0ACB87D01AD0CDBB00B4A1A3 /* main.m in Sources */,
+				0ACB87D61AD0CDBB00B4A1A3 /* ViewController.mm in Sources */,
+				0ACB87D31AD0CDBB00B4A1A3 /* AppDelegate.mm in Sources */,
+				0ACB87D01AD0CDBB00B4A1A3 /* main.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ACB87EA1AD0CDBC00B4A1A3 /* PostureTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +373,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Posture/Posture-Prefix.pch";
 				INFOPLIST_FILE = Posture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +388,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = "Posture/Posture-Prefix.pch";
 				INFOPLIST_FILE = Posture/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -366,6 +406,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -385,6 +426,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = PostureTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -412,6 +454,7 @@
 				0ACB87EF1AD0CDBC00B4A1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0ACB87F01AD0CDBC00B4A1A3 /* Build configuration list for PBXNativeTarget "PostureTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +463,7 @@
 				0ACB87F21AD0CDBC00B4A1A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
