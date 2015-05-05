@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A6F72D81AF84A2500A15B5D /* HS.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0A6F72D71AF84A2500A15B5D /* HS.xml */; };
 		0ACB87D01AD0CDBB00B4A1A3 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87CF1AD0CDBB00B4A1A3 /* main.mm */; };
 		0ACB87D31AD0CDBB00B4A1A3 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.mm */; };
 		0ACB87D61AD0CDBB00B4A1A3 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0ACB87D51AD0CDBB00B4A1A3 /* ViewController.mm */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A6F72D71AF84A2500A15B5D /* HS.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = HS.xml; path = ../../../../Downloads/HS.xml; sourceTree = "<group>"; };
 		0ACB87CA1AD0CDBB00B4A1A3 /* Posture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Posture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACB87CE1AD0CDBB00B4A1A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ACB87CF1AD0CDBB00B4A1A3 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		0ACB87CC1AD0CDBB00B4A1A3 /* Posture */ = {
 			isa = PBXGroup;
 			children = (
+				0A6F72D71AF84A2500A15B5D /* HS.xml */,
 				0ACB87D11AD0CDBB00B4A1A3 /* AppDelegate.h */,
 				0ACB87D21AD0CDBB00B4A1A3 /* AppDelegate.mm */,
 				0ACB87D41AD0CDBB00B4A1A3 /* ViewController.h */,
@@ -230,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6F72D81AF84A2500A15B5D /* HS.xml in Resources */,
 				0ACB87D91AD0CDBB00B4A1A3 /* Main.storyboard in Resources */,
 				0ACB87DE1AD0CDBC00B4A1A3 /* LaunchScreen.xib in Resources */,
 				0ACB87DB1AD0CDBB00B4A1A3 /* Images.xcassets in Resources */,
@@ -379,8 +383,10 @@
 				);
 				GCC_PREFIX_HEADER = "Posture/Posture-Prefix.pch";
 				INFOPLIST_FILE = Posture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Debug;
 		};
@@ -394,8 +400,10 @@
 				);
 				GCC_PREFIX_HEADER = "Posture/Posture-Prefix.pch";
 				INFOPLIST_FILE = Posture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos8.3;
 			};
 			name = Release;
 		};

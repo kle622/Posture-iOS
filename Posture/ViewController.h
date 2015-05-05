@@ -9,6 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <opencv2/highgui/cap_ios.h>
 
+NSString* const kFaceCascadeName = @"haarcascade_frontalface_alt2";
+
+#ifdef __cplusplus
+cv::CascadeClassifier face_cascade;
+#endif
+
 @interface ViewController : UIViewController <CvVideoCameraDelegate>
 {
     IBOutlet UIImageView* imageView;

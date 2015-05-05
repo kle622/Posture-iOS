@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>287A96E2-2394-422A-BE7A-B395B63B627B</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Posture</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A1C04C81BB98EF087D2B31B2D0A99911DECB31A5</key>
 		<string>https://github.com/kle622/Posture-iOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Posture.xcodeproj</string>
+	<string>Posture.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A1C04C81BB98EF087D2B31B2D0A99911DECB31A5</key>
